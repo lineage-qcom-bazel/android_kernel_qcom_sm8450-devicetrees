@@ -211,6 +211,14 @@ ifeq ($(CONFIG_LAMY_DTB),y)
 dtbo-y += parrot-lamy-wcn6755.dtbo
 endif
 
+ifeq ($(CONFIG_GENEVN_DTB),y)
+dtbo-y += parrot-genevn-wcn3990.dtbo
+endif
+
+ifeq ($(CONFIG_AVATRN_DTB),y)
+dtbo-y += parrot-avatrn-wcn6750.dtbo
+endif
+
 always-y	:= $(dtb-y) $(dtbo-y)
 subdir-y	:= $(dts-dirs)
 clean-files	:= *.dtb *.dtbo

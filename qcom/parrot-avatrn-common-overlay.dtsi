@@ -11,7 +11,6 @@
  */
 #include "parrot-moto-common-overlay-base-pm8350b.dtsi"
 #include "parrot-moto-common-overlay.dtsi"
-#include "parrot-wcn6750.dtsi"
 #include "parrot-avatrn-charger-overlay.dtsi"
 #include "parrot-avatrn-thermal-overlay.dtsi"
 #include "parrot-avatrn-touchscreen-overlay.dtsi"
