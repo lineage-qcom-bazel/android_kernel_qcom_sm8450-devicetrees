@@ -45,6 +45,10 @@ ifeq ($(CONFIG_LAMY_DTB),y)
 dtbo-y += st/parrot-lamy-nfc.dtbo
 endif
 
+ifeq ($(CONFIG_AVATRN_DTB),y)
+dtbo-y += st/parrot-avatrn-nfc.dtbo
+endif
+
 always-y        := $(dtb-y) $(dtbo-y)
 subdir-y        := $(dts-dirs)
 clean-files     := *.dtb *.dtbo
