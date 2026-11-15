@@ -42,5 +42,11 @@
 &firmware {
 	android {
 		/delete-node/ fstab;
+#if defined(CONFIG_AVATRN_DTB) || defined(CONFIG_GENEVN_DTB)
+		vbmeta {
+			compatible = "android,vbmeta";
+			parts = "vbmeta,boot,system,vendor,dtbo,recovery";
+		};
+#endif
 	};
 };
