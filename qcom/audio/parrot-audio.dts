@@ -9,7 +9,7 @@
 #include <dt-bindings/interconnect/qcom,parrot.h>
 #include <dt-bindings/regulator/qcom,rpmh-regulator-levels.h>
 
-#include "waipio-audio.dtsi"
+#include "parrot-audio.dtsi"
 
 / {
 	model = "Qualcomm Technologies, Inc. Parrot SoC";
